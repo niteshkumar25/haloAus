@@ -1,0 +1,52 @@
+.singlePage {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.singlePage .right {
+  margin-top: 30px;
+}
+
+.singlePage img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 400px; /* Limits height to prevent oversized images */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Ensures image fills space nicely */
+}
+
+.singlePage h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.singlePage p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.singlePage .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.singlePage .button {
+  margin-left: 20px;
+  border: none;
+}
+
+.singlePage .button:nth-child(1) {
+  background: #10ac84;
+}
+
+.singlePage .button:nth-child(2) {
+  background: #ee5253;
+}
+
+.right p {
+  white-space: pre-wrap; /* Preserves line breaks and spaces */
+  line-height: 1.6; /* Improves readability */
+  font-size: 16px;
+}
