@@ -1,7 +1,6 @@
 import React from "react"
 import "./category.css"
 import { category } from "../../assets/data/data"
-import "slick-carousel/slick/slick.css"
 import Slider from "react-slick"
 import { GrFormPrevious } from "react-icons/gr"
 import { MdNavigateNext } from "react-icons/md"
